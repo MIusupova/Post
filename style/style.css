@@ -18,3 +18,9 @@
     justify-content: center;
     font-size: 25px;
 }
+.card{
+    margin-bottom: 20px;
+}
+.card-header{
+    font-size: 15px;
+}

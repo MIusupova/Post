@@ -8,6 +8,7 @@ const renderPost = (posts) => {
     for (let post of posts){
         const col = document.createElement('div')
         col.classList.add('col')
+        postsContainer.append(col)
 
         const card = document.createElement('div')
         card.classList.add('card')
@@ -28,7 +29,7 @@ const renderPost = (posts) => {
         cardBody.append(cardText)
 
         cardBody.innerHTML += `<a href="post.html" class="btn btn-outline-primary">Открыть пост</a>`
-        postsContainer.append(col)
+        
 
     }
 }
