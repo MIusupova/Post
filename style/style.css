@@ -6,12 +6,7 @@
 .col{
     margin-bottom: 20px;
 }
-.comment{
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-    font-size: 25px;
-}
+
 .text-post{
     margin-bottom: 20px;
     display: flex;

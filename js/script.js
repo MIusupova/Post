@@ -28,7 +28,7 @@ const renderPost = (posts) => {
         cardText.innerText = post.body
         cardBody.append(cardText)
 
-        cardBody.innerHTML += `<a href="post.html" class="btn btn-outline-primary">Открыть пост</a>`
+        cardBody.innerHTML += `<a href="post.html?id=${post.id}" class="btn btn-outline-primary">Открыть пост</a>`
         
 
     }
