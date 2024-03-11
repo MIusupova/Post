@@ -43,7 +43,7 @@ const renderUsers = (users) => {
         cardWebsite.innerText += user.website
         cardBody.append(cardWebsite)
 
-        cardBody.innerHTML += `<a href="user.html" class="btn btn-outline-primary">Перейти на страницу пользователя</a>`
+        cardBody.innerHTML += `<a href="user.html?id=${user.id}"" class="btn btn-outline-primary">Перейти на страницу пользователя</a>`
         usersContainer.append(card)
 
     }
