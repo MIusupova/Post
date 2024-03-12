@@ -44,7 +44,7 @@ const renderComments = (res) => {
         card.append(cardHeader)
 
         const cardComments = document.createElement('div')
-        cardComments.classList.add('card-comments')
+        cardComments.classList.add('card-comments','card-body')
         card.append(cardComments)
 
         const cardName = document.createElement('h5')
